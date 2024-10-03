@@ -1,0 +1,59 @@
+
+*{
+    margin: 0%;
+    font-family: poppins;
+}
+.top-header{
+
+    background-color: #fff9ea;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+    margin: 0px 100px;
+}
+ul>li{
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.nav-menu{
+    display: flex;
+    gap: 30px;
+}
+.Sign-In-btn{
+    padding: 5px 20px;
+    border-radius: 20px;
+background-color: #ffcb45;
+border: none;
+font-weight: 600;
+display: flex;
+gap: 10px;
+align-items: center;
+}
+.nav-icon{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+/* Hero section style */
+.Hero-container{
+    background-image: url(../images/shapes.png);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Hero-parent{
+      display: flex;
+      justify-content: space-between;
+}
+.Hero-text{
+    display: flex;
+    align-items: center;
+}
